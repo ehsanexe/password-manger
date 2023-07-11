@@ -1,0 +1,23 @@
+{
+  "name": "password-manger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehsanexe/password-manger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehsanexe/password-manger/issues"
+  },
+  "homepage": "https://github.com/ehsanexe/password-manger#readme",
+  "devDependencies": {
+    "electron": "^25.2.0"
+  }
+}

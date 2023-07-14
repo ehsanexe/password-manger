@@ -5,7 +5,10 @@ const createWindow = () => {
   const win = new BrowserWindow({
     width: 800,
     height: 600,
+    useContentSize: true,
+    // background: "linear-gradient(320deg, #004d40, #006064, #00bfa5)",
   });
+  win.removeMenu();
 
   // win.loadFile("index.html");
   win.loadURL(

@@ -1,23 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import BackgroundDecorations from "./components/BackgroundDecorations";
+import Table from "./components/Table";
+import KeyIcon from "@mui/icons-material/Key";
 
 function App() {
+  const data = [
+    {
+      userName: "Bruce",
+      email: "beuce@bat.com",
+      password: "sjdlkajsdlksajd;l",
+    },
+    {
+      userName: "Bruce",
+      email: "beuce@bat.com",
+      password: "sjdlkajsdlksajd;l",
+    },
+    {
+      userName: "Bruce",
+      email: "beuce@bat.com",
+      password: "sjdlkajsdlksajd;l",
+    },
+    {
+      userName: "Bruce",
+      email: "beuce@bat.com",
+      password: "sjdlkajsdlksajd;l",
+    },
+    {
+      userName: "Bruce",
+      email: "beuce@bat.com",
+      password: "sjdlkajsdlksajd;l",
+    },
+    {
+      userName: "Bruce",
+      email: "beuce@bat.com",
+      password: "sjdlkajsdlksajd;l",
+    },
+  ];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="password-manager-container">
+      <KeyIcon className="keyIcon" sx={{ fontSize: "6rem" }} />
+      <Table data={data} />
     </div>
   );
 }
